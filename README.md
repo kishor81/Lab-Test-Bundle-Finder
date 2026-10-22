@@ -92,6 +92,7 @@ Synthetic catalogs: Up to approximately 17 ms across 20 random catalogs with 40 
 These are local measurements, not performance guarantees. The search is exponential in the worst case, but pruning and targeted branching make it efficient for the current catalog.
 
 Future Improvements
+
 Add frontend tests with Vitest and Testing Library.
 Improve keyboard navigation in the test picker.
 Cache plans for repeated selections.
