@@ -1,0 +1,416 @@
+{
+  "_readme": "Fictional data. Prices are whole Thai baht (THB).",
+  "tests": [
+    {
+      "id": "T01",
+      "code": "CBC",
+      "name": "Complete Blood Count",
+      "price": 250,
+      "status": true
+    },
+    {
+      "id": "T02",
+      "code": "FBS",
+      "name": "Fasting Blood Sugar",
+      "price": 120,
+      "status": true
+    },
+    {
+      "id": "T03",
+      "code": "HBA1C",
+      "name": "HbA1c",
+      "price": 450,
+      "status": true
+    },
+    {
+      "id": "T04",
+      "code": "LIPID",
+      "name": "Lipid Profile",
+      "price": 600,
+      "status": true
+    },
+    {
+      "id": "T05",
+      "code": "LFT",
+      "name": "Liver Function Test",
+      "price": 700,
+      "status": true
+    },
+    {
+      "id": "T06",
+      "code": "KFT",
+      "name": "Kidney Function Test",
+      "price": 650,
+      "status": true
+    },
+    {
+      "id": "T07",
+      "code": "TSH",
+      "name": "Thyroid Stimulating Hormone",
+      "price": 400,
+      "status": true
+    },
+    {
+      "id": "T08",
+      "code": "FT4",
+      "name": "Free T4",
+      "price": 380,
+      "status": true
+    },
+    {
+      "id": "T09",
+      "code": "VITD",
+      "name": "Vitamin D",
+      "price": 1200,
+      "status": true
+    },
+    {
+      "id": "T10",
+      "code": "B12",
+      "name": "Vitamin B12",
+      "price": 900,
+      "status": true
+    },
+    {
+      "id": "T11",
+      "code": "URINE",
+      "name": "Urine Routine",
+      "price": 150,
+      "status": true
+    },
+    {
+      "id": "T12",
+      "code": "URIC",
+      "name": "Uric Acid",
+      "price": 200,
+      "status": true
+    },
+    {
+      "id": "T13",
+      "code": "IRON",
+      "name": "Iron Studies",
+      "price": 850,
+      "status": true
+    },
+    {
+      "id": "T14",
+      "code": "HBSAG",
+      "name": "Hepatitis B Surface Antigen",
+      "price": 500,
+      "status": true
+    },
+    {
+      "id": "T15",
+      "code": "HIV",
+      "name": "HIV 1 & 2 Screening",
+      "price": null,
+      "status": true
+    },
+    {
+      "id": "T16",
+      "code": "PSA",
+      "name": "Prostate Specific Antigen",
+      "price": 800,
+      "status": true
+    },
+    {
+      "id": "T17",
+      "code": "CA",
+      "name": "Calcium",
+      "price": 180,
+      "status": true
+    },
+    {
+      "id": "T18",
+      "code": "ECG",
+      "name": "Electrocardiogram",
+      "price": 700,
+      "status": true
+    },
+    {
+      "id": "T19",
+      "code": "ALLERGY",
+      "name": "Allergy Panel (20 allergens)",
+      "price": 3500,
+      "status": false
+    },
+    {
+      "id": "T20",
+      "code": "CRP",
+      "name": "C-Reactive Protein",
+      "price": 350,
+      "status": true
+    }
+  ],
+  "packages": [
+    {
+      "id": "P01",
+      "name": "Diabetes Basic",
+      "price": 500,
+      "testIds": [
+        "T02",
+        "T03"
+      ],
+      "status": true
+    },
+    {
+      "id": "P02",
+      "name": "Diabetes Plus",
+      "price": 1500,
+      "testIds": [
+        "T02",
+        "T03",
+        "T04",
+        "T06"
+      ],
+      "status": true
+    },
+    {
+      "id": "P03",
+      "name": "Heart Check",
+      "price": 1600,
+      "testIds": [
+        "T01",
+        "T02",
+        "T04",
+        "T18"
+      ],
+      "status": true
+    },
+    {
+      "id": "P04",
+      "name": "Thyroid Panel",
+      "price": 700,
+      "testIds": [
+        "T07",
+        "T08"
+      ],
+      "status": true
+    },
+    {
+      "id": "P05",
+      "name": "Vitamin Combo",
+      "price": 1700,
+      "testIds": [
+        "T09",
+        "T10"
+      ],
+      "status": true
+    },
+    {
+      "id": "P06",
+      "name": "Full Body Basic",
+      "price": 2200,
+      "testIds": [
+        "T01",
+        "T02",
+        "T04",
+        "T05",
+        "T06",
+        "T11",
+        "T12",
+        "T02"
+      ],
+      "status": true
+    },
+    {
+      "id": "P07",
+      "name": "Full Body Plus",
+      "price": 2900,
+      "testIds": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T11",
+        "T12",
+        "T17"
+      ],
+      "status": true
+    },
+    {
+      "id": "P08",
+      "name": "Sexual Health Screen",
+      "price": 900,
+      "testIds": [
+        "T14",
+        "T15"
+      ],
+      "status": true
+    },
+    {
+      "id": "P09",
+      "name": "Men's Health 40+",
+      "price": 1900,
+      "testIds": [
+        "T02",
+        "T03",
+        "T04",
+        "T16"
+      ],
+      "status": true
+    },
+    {
+      "id": "P10",
+      "name": "Liver Care",
+      "price": 800,
+      "testIds": [
+        "T05",
+        "T14"
+      ],
+      "status": false
+    },
+    {
+      "id": "P11",
+      "name": "Urine & Uric Acid",
+      "price": 400,
+      "testIds": [
+        "T11",
+        "T12"
+      ],
+      "status": true
+    },
+    {
+      "id": "P12",
+      "name": "Iron & Calcium",
+      "price": 1000,
+      "testIds": [
+        "T13",
+        "T17",
+        "T99"
+      ],
+      "status": true
+    },
+    {
+      "id": "P13",
+      "name": "Kidney & Uric Acid",
+      "price": 850,
+      "testIds": [
+        "T06",
+        "T12"
+      ],
+      "status": true
+    }
+  ],
+  "examples": [
+    {
+      "request": {
+        "testIds": [
+          "T02",
+          "T03",
+          "T04",
+          "T06"
+        ]
+      },
+      "expected": {
+        "items": [
+          {
+            "type": "package",
+            "id": "P02",
+            "name": "Diabetes Plus",
+            "price": 1500,
+            "covers": [
+              "T02",
+              "T03",
+              "T04",
+              "T06"
+            ]
+          }
+        ],
+        "total": 1500,
+        "extraTests": [],
+        "individualTotal": 1820,
+        "savings": 320
+      }
+    },
+    {
+      "request": {
+        "testIds": [
+          "T01",
+          "T02",
+          "T03",
+          "T04",
+          "T05",
+          "T06",
+          "T07"
+        ]
+      },
+      "expected": {
+        "items": [
+          {
+            "type": "package",
+            "id": "P02",
+            "name": "Diabetes Plus",
+            "price": 1500,
+            "covers": [
+              "T02",
+              "T03",
+              "T04",
+              "T06"
+            ]
+          },
+          {
+            "type": "test",
+            "id": "T01",
+            "name": "Complete Blood Count",
+            "price": 250,
+            "covers": [
+              "T01"
+            ]
+          },
+          {
+            "type": "test",
+            "id": "T05",
+            "name": "Liver Function Test",
+            "price": 700,
+            "covers": [
+              "T05"
+            ]
+          },
+          {
+            "type": "test",
+            "id": "T07",
+            "name": "Thyroid Stimulating Hormone",
+            "price": 400,
+            "covers": [
+              "T07"
+            ]
+          }
+        ],
+        "total": 2850,
+        "extraTests": [],
+        "individualTotal": 3170,
+        "savings": 320
+      }
+    },
+    {
+      "request": {
+        "testIds": [
+          "T15"
+        ]
+      },
+      "expected": {
+        "items": [
+          {
+            "type": "package",
+            "id": "P08",
+            "name": "Sexual Health Screen",
+            "price": 900,
+            "covers": [
+              "T15"
+            ]
+          }
+        ],
+        "total": 900,
+        "extraTests": [
+          "T14"
+        ],
+        "individualTotal": null,
+        "savings": null
+      }
+    }
+  ]
+}
